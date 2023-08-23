@@ -1,0 +1,96 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+.title {
+    color: #6d6d6d;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 1.7px;
+    margin-bottom: 10px;
+}
+
+.base {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+input {
+    color: #000;
+    font-size: 32px;
+    border-radius: 10px;
+    width: 130px;
+    font-weight: 700;
+    height: 70px;
+    padding-left: 20px;
+    border: 1px solid #dcdcdc;
+}
+
+.error {
+    border: 1px solid #ff5757;
+}
+
+input::placeholder {
+    text-transform: uppercase;
+    color: #878787;
+}
+
+.block {
+    position: relative;
+}
+
+.error-text {
+    color: #ff5757;
+    position: absolute;
+    font-style: italic;
+}
+
+.app-container {
+    border-radius: 20px;
+    padding: 50px;
+    background: #FFF;
+    max-width: 800px;
+    border-bottom-right-radius: 200px;
+    padding-bottom: 70px;
+}
+
+.submit {
+    cursor: pointer;
+    background: url(assets/images/icon-arrow.svg) center no-repeat, #854eff;
+    width: 90px;
+    border-radius: 50%;
+    height: 90px;
+}
+
+.submitBase {
+    gap: 0;
+}
+
+.submitBase::before {
+    content: "";
+    height: 2px;
+    background: #efefef;
+    width: 600px;
+}
+
+#your-age {
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 100px;
+}
+
+#your-age span {
+    color: #874dff;
+}
